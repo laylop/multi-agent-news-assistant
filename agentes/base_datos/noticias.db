@@ -1,0 +1,11 @@
+CREATE TABLE noticias (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  titulo TEXT NOT NULL,
+  enlace TEXT NOT NULL,
+  resumen TEXT,
+  texto TEXT,
+  sentimiento TEXT,
+  categoria TEXT,
+  fuente TEXT,
+  fecha DATETIME DEFAULT CURRENT_TIMESTAMP
+);
